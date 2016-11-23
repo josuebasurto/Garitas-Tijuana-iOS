@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA0C3BDA1DE50C760094101E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0C3BD91DE50C760094101E /* AppDelegate.swift */; };
+		CA0C3BDC1DE50C760094101E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0C3BDB1DE50C760094101E /* ViewController.swift */; };
+		CA0C3BDF1DE50C760094101E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0C3BDD1DE50C760094101E /* Main.storyboard */; };
+		CA0C3BE11DE50C760094101E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA0C3BE01DE50C760094101E /* Assets.xcassets */; };
+		CA0C3BE41DE50C760094101E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0C3BE21DE50C760094101E /* LaunchScreen.storyboard */; };
+		CA0C3BEE1DE52ACD0094101E /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0C3BEC1DE52ACD0094101E /* Fabric.framework */; };
+		CA0C3BEF1DE52ACD0094101E /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0C3BED1DE52ACD0094101E /* Crashlytics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA0C3BD61DE50C760094101E /* Garitas Tijuana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Garitas Tijuana.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0C3BD91DE50C760094101E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA0C3BDB1DE50C760094101E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA0C3BDE1DE50C760094101E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA0C3BE01DE50C760094101E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA0C3BE31DE50C760094101E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA0C3BE51DE50C760094101E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA0C3BEC1DE52ACD0094101E /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		CA0C3BED1DE52ACD0094101E /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA0C3BD31DE50C750094101E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0C3BEF1DE52ACD0094101E /* Crashlytics.framework in Frameworks */,
+				CA0C3BEE1DE52ACD0094101E /* Fabric.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA0C3BCD1DE50C750094101E = {
+			isa = PBXGroup;
+			children = (
+				CA0C3BEC1DE52ACD0094101E /* Fabric.framework */,
+				CA0C3BED1DE52ACD0094101E /* Crashlytics.framework */,
+				CA0C3BD81DE50C760094101E /* Garitas Tijuana */,
+				CA0C3BD71DE50C760094101E /* Products */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 1;
+		};
+		CA0C3BD71DE50C760094101E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA0C3BD61DE50C760094101E /* Garitas Tijuana.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA0C3BD81DE50C760094101E /* Garitas Tijuana */ = {
+			isa = PBXGroup;
+			children = (
+				CA0C3BD91DE50C760094101E /* AppDelegate.swift */,
+				CA0C3BDB1DE50C760094101E /* ViewController.swift */,
+				CA0C3BDD1DE50C760094101E /* Main.storyboard */,
+				CA0C3BE01DE50C760094101E /* Assets.xcassets */,
+				CA0C3BE21DE50C760094101E /* LaunchScreen.storyboard */,
+				CA0C3BE51DE50C760094101E /* Info.plist */,
+			);
+			path = "Garitas Tijuana";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA0C3BD51DE50C750094101E /* Garitas Tijuana */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA0C3BE81DE50C760094101E /* Build configuration list for PBXNativeTarget "Garitas Tijuana" */;
+			buildPhases = (
+				CA0C3BD21DE50C750094101E /* Sources */,
+				CA0C3BD31DE50C750094101E /* Frameworks */,
+				CA0C3BD41DE50C750094101E /* Resources */,
+				CA0C3BEB1DE52A810094101E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Garitas Tijuana";
+			productName = "Garitas Tijuana";
+			productReference = CA0C3BD61DE50C760094101E /* Garitas Tijuana.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA0C3BCE1DE50C750094101E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = garitas;
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Josue Basurto";
+				TargetAttributes = {
+					CA0C3BD51DE50C750094101E = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = H73W5BSELH;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CA0C3BD11DE50C750094101E /* Build configuration list for PBXProject "Garitas Tijuana" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA0C3BCD1DE50C750094101E;
+			productRefGroup = CA0C3BD71DE50C760094101E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA0C3BD51DE50C750094101E /* Garitas Tijuana */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA0C3BD41DE50C750094101E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0C3BE41DE50C760094101E /* LaunchScreen.storyboard in Resources */,
+				CA0C3BE11DE50C760094101E /* Assets.xcassets in Resources */,
+				CA0C3BDF1DE50C760094101E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CA0C3BEB1DE52A810094101E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run a01811caab790392c351f4ab75837d4764a9512a bcc692d20291f70f5f09d812d6914a85d21e3fcbdaddddf1fa8af353c5b10965";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA0C3BD21DE50C750094101E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0C3BDC1DE50C760094101E /* ViewController.swift in Sources */,
+				CA0C3BDA1DE50C760094101E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA0C3BDD1DE50C760094101E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA0C3BDE1DE50C760094101E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA0C3BE21DE50C760094101E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA0C3BE31DE50C760094101E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA0C3BE61DE50C760094101E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA0C3BE71DE50C760094101E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA0C3BE91DE50C760094101E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H73W5BSELH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Garitas Tijuana/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.josuebasurto.Garitas-Tijuana";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CA0C3BEA1DE50C760094101E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H73W5BSELH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Garitas Tijuana/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.josuebasurto.Garitas-Tijuana";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA0C3BD11DE50C750094101E /* Build configuration list for PBXProject "Garitas Tijuana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0C3BE61DE50C760094101E /* Debug */,
+				CA0C3BE71DE50C760094101E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA0C3BE81DE50C760094101E /* Build configuration list for PBXNativeTarget "Garitas Tijuana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0C3BE91DE50C760094101E /* Debug */,
+				CA0C3BEA1DE50C760094101E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA0C3BCE1DE50C750094101E /* Project object */;
+}
